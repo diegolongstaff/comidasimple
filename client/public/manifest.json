@@ -1,0 +1,42 @@
+{
+  "name": "Comida Simple",
+  "short_name": "Comida Simple",
+  "description": "Planificación familiar de comidas inteligente, saludable y económica",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0097b2",
+  "orientation": "portrait-primary",
+  "categories": ["food", "lifestyle", "productivity"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Planificar Semana",
+      "short_name": "Planificar",
+      "description": "Planifica las comidas de la semana",
+      "url": "/?action=plan",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ver Recetas",
+      "short_name": "Recetas",
+      "description": "Explora recetas disponibles",
+      "url": "/recipes",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
